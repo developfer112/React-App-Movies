@@ -1,0 +1,33 @@
+{
+  "name": "React-Ejemplo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot --port 3000",
+    "production": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "bootswatch": "^4.5.3",
+    "css-loader": "^5.0.1",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.17.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.22.0",
+    "html-webpack-plugin": "^4.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
